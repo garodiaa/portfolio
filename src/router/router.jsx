@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import App from "../App";
-import RootLayout from "../layout/rootLayout";
+import RootLayout from "../layout/RootLayout";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 import Achievements from "../pages/Achievements";
