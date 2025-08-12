@@ -22,8 +22,8 @@
   --color-secondary-content: oklch(7% 0.021 166.113);
   --color-accent: oklch(85% 0.199 91.936);
   --color-accent-content: oklch(28% 0.066 53.813);
-  --color-neutral: oklch(27% 0.006 286.033);
-  --color-neutral-content: oklch(85% 0 65.65);
+  --color-neutral: oklch(50% 0.013 285.033);
+  --color-neutral-content: oklch(98% 0 65.65);
   --color-info: oklch(78% 0.154 211.53);
   --color-info-content: oklch(30% 0.056 229.695);
   --color-success: oklch(84% 0.238 128.85);
@@ -39,5 +39,21 @@
   --size-field: 0.25rem;
   --border: 1px;
   --depth: 1;
+  --glass-reflect-opacity: 0.0;
+  --glass-reflect-blur: 0.5rem;
+  --glass-reflect-size: 1rem;
+  --glass-reflect-position: 0.5rem;
+  --glass-reflect-radius: 0.5rem;
+}
+
+/* ShinyText animation */
+@keyframes shine {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* Utility to use with Tailwind classes */
+.animate-shine {
+  animation: shine 5s linear infinite;
 }
 
