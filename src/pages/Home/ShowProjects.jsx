@@ -1,10 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-import SpotlightCard from '../components/SpotlightCard';
-import TiltedCard from '../components/TitledCard';
-import projectsData from '../data/projects.json';
+import SpotlightCard from '../../components/SpotlightCard';
+import TiltedCard from '../../components/TitledCard';
+import projectsData from '../../data/projects.json';
 
-const Projects = () => {
+const ShowProjects = () => {
     const navigate = useNavigate();
     
     const handleViewDetails = (projectId) => {
@@ -12,14 +12,14 @@ const Projects = () => {
     };
 
     return (
-        <div className="min-h-screen py-16 px-4">
+        <section className="py-16 px-4">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                    <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                        All Projects
-                    </h1>
-                    <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-                        Explore my complete portfolio showcasing various web applications, mobile apps, and innovative solutions built with modern technologies
+                    <h2 className="text-4xl font-light text-white mb-4">
+                        Featured Projects
+                    </h2>
+                    <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+                        Explore my latest work showcasing modern web technologies and innovative solutions
                     </p>
                 </div>
 
@@ -113,15 +113,21 @@ const Projects = () => {
                     ))}
                 </div>
 
-                {/* Filter/Sort Options - Future Enhancement */}
-                <div className="mt-16 text-center">
-                    <p className="text-gray-500 text-sm">
-                        More projects coming soon...
-                    </p>
+                {/* View All Projects Button */}
+                <div className="text-center mt-12">
+                    <button 
+                        onClick={() => navigate('/projects')}
+                        className="btn btn-outline btn-neutral hover: py-3 px-8 rounded-lg font-medium transition-colors duration-200 inline-flex items-center gap-2"
+                    >
+                        View All Projects
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
-export default Projects;
+export default ShowProjects;

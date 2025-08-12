@@ -4,6 +4,7 @@ import RootLayout from "../layout/rootLayout";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 import Achievements from "../pages/Achievements";
+import ProjectDetail from "../pages/ProjectDetail";
 
 
 export const router = createBrowserRouter([
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
             {
                 path: "/projects",
                 element: <Projects></Projects>
+            },
+            {
+                path: "/projects/:id",
+                element: <ProjectDetail></ProjectDetail>
             },
             {
                 path: "/achievements",

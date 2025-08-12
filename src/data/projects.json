@@ -1,0 +1,152 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Compiler Forge Toolkit",
+      "coverImage": "/projects/compiler.png",
+      "title": "Web-Based Compiler Design Utility",
+      "description": "A web-based toolkit to simplify and accelerate learning in compiler design.",
+      "techStack": ["HTML5", "JavaScript", "Tailwind CSS", "DaisyUI", "Responsive Design"],
+      "githubLink": "https://github.com/garodiaa/compiler-forge-toolkit",
+      "liveSiteLink": "https://compiler-forge.netlify.app/",
+      "briefDescription": "The Compiler Forge Toolkit allows students and educators to instantly compute critical compiler construction components like Left Recursion Elimination, Left Factoring, and First & Follow Sets. Designed for quick, accurate results, it reduces manual effort and errors in compiler design exercises.",
+      "challenges": [
+        "Designing an intuitive UI for technical compiler operations",
+        "Accurately implementing grammar parsing algorithms in JavaScript"
+      ],
+      "improvements": [
+        "Add syntax tree visualization",
+        "Support more grammar processing algorithms"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "FoodOShare",
+      "coverImage": "/projects/foodoshare.jpg",
+      "title": "Community Food Sharing Platform",
+      "description": "A platform to connect communities and reduce food waste by sharing surplus food.",
+      "techStack": [
+        "ReactJS",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "TanStack Query",
+        "Axios",
+        "Framer Motion",
+        "React Icons",
+        "React Slick",
+        "React Toastify",
+        "Firebase Hosting",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Auth",
+        "Vercel"
+      ],
+      "githubLink": "https://github.com/garodiaa/foodOshare_client",
+      "liveSiteLink": "https://food-o-share.web.app/",
+      "briefDescription": "FoodOShare helps communities reduce food waste by connecting people who have surplus food with those who need it. The platform supports secure authentication, item listing, and easy sharing to promote a sustainable lifestyle.",
+      "challenges": [
+        "Integrating real-time data fetching with TanStack Query",
+        "Ensuring a smooth and responsive UI across devices"
+      ],
+      "improvements": [
+        "Add chat feature for donors and recipients",
+        "Implement AI-based surplus food recommendations"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Boardium",
+      "coverImage": "/projects/boardium.png",
+      "title": "Class-wise Notice Management WebApp",
+      "description": "A web app for managing and delivering class-wise notices efficiently.",
+      "techStack": [
+        "ReactJS",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "TanStack Query",
+        "Axios",
+        "Framer Motion",
+        "React Icons",
+        "React Slick",
+        "React Toastify",
+        "Firebase Hosting",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Auth",
+        "Vercel"
+      ],
+      "githubLink": "https://github.com/garodiaa/Boardium",
+      "liveSiteLink": "https://boardiumx.web.app/",
+      "briefDescription": "Boardium is a notice management web app tailored for class-wise distribution, enabling fast and organized communication between teachers and students.",
+      "challenges": [
+        "Creating an easy-to-use notice publishing system",
+        "Maintaining secure and fast real-time updates"
+      ],
+      "improvements": [
+        "Add mobile app version",
+        "Implement notice scheduling"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Book Nookery",
+      "coverImage": "/projects/booknookery.png",
+      "title": "Java-based Book Store Management Software",
+      "description": "A desktop application for managing bookstore operations.",
+      "techStack": ["Java", "MySQL"],
+      "githubLink": "https://sites.google.com/diu.edu.bd/devoverflow",
+      "liveSiteLink": "",
+      "briefDescription": "Book Nookery is a Java-based software for efficient bookstore management, covering inventory tracking, sales management, and customer records.",
+      "challenges": [
+        "Designing a smooth MySQL integration for Java desktop app",
+        "Implementing a user-friendly UI for non-technical users"
+      ],
+      "improvements": [
+        "Add reporting and analytics dashboard",
+        "Enable cloud sync for multi-device access"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "DevBoard",
+      "coverImage": "/projects/devboard.jpg",
+      "title": "Developer Tools Showcase",
+      "description": "A collection of developer resources and tools.",
+      "techStack": ["HTML5", "CSS3", "JavaScript", "Tailwind"],
+      "githubLink": "https://github.com/garodiaa/PH_A5",
+      "liveSiteLink": "https://garodiaa.github.io/PH_A5/index.html",
+      "briefDescription": "DevBoard is a static website showcasing a curated list of developer tools and resources in a clean, responsive layout.",
+      "challenges": [
+        "Organizing multiple resources into a clean UI",
+        "Ensuring full responsiveness with Tailwind CSS"
+      ],
+      "improvements": [
+        "Add search and filtering features",
+        "Enable bookmarking favorite tools"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Uni-Chronicle",
+      "coverImage": "/projects/uniChronicle.png",
+      "title": "Automated Academic File Management Shell Tool",
+      "description": "A shell-script automation tool for organizing university academic files.",
+      "techStack": ["Shell Scripting", "Ubuntu", "Bash", "Cron Jobs"],
+      "githubLink": "https://github.com/garodiaa/Uni-Chronicle",
+      "liveSiteLink": "",
+      "briefDescription": "Uni-Chronicle automates academic file organization for theory and lab courses, manages backups, and optimizes student workflow on Ubuntu systems.",
+      "challenges": [
+        "Designing automation scripts compatible with multiple directory structures",
+        "Scheduling automated backups with Cron jobs"
+      ],
+      "improvements": [
+        "Add cross-platform support for Windows and macOS",
+        "Integrate cloud backup services"
+      ]
+    }
+  ]
+}

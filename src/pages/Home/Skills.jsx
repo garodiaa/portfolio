@@ -18,7 +18,7 @@ import {
 
 const Skills = () => {
     const skills = [
-        { name: 'HTML', icon: <FaHtml5 className="w-8 h-8 text-orange-500" /> },
+        { name: 'HTML', icon: <FaHtml5 className="ml-8 w-8 h-8 text-orange-500" /> },
         { name: 'CSS', icon: <FaCss3Alt className="w-8 h-8 text-blue-500" /> },
         { name: 'JavaScript', icon: <FaJs className="w-8 h-8 text-yellow-500" /> },
         { name: 'PHP', icon: <FaPhp className="w-8 h-8 text-purple-500" /> },

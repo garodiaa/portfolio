@@ -2,8 +2,8 @@ import React from 'react';
 
 const Achievements = () => {
     return (
-        <div>
-            this is the achievements page
+        <div className='py-16 px-4 text-center'>
+            On Devlopment
         </div>
     );
 };

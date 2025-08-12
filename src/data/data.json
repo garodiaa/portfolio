@@ -1,0 +1,91 @@
+{
+    1
+    "src\assets\projects\compiler.png"
+    "Compiler Forge Toolkit is a web-based utility designed to simplify and accelerate learning in compiler design."
+    "The Compiler Forge Toolkit is a web-based utility designed to simplify and accelerate learning in compiler design. Built as a companion tool to this book, it allows students and educators to instantly compute critical compiler construction components like Left Recursion Elimination, Left Factoring, and First & Follow Sets — all with just a few clicks. Whether you're learning the concepts for the first time or building a parser, Compiler Forge helps reduce manual effort and error by providing clean, structured outputs.
+
+Struggling with Left Recursion, Left Factoring, or First-Follow calculations? Compiler Forge is here to help!""https://compiler-forge.netlify.app/""https://github.com/garodiaa/compiler-forge-toolkit"
+    Frontend: HTML5, JavaScript
+Styling: Tailwind CSS, Daisy UI
+Responsive Design: Fully responsive layout compatible across devices and browsers.
+}
+{
+    2
+    "src\assets\projects\foodoshare.jpg"
+    foodOshare 
+    "FoodOShare is a Community Food Sharing and Surplus Reduction Platform. Our mission is to connect people and reduce food waste by making it easy to share surplus food within the community."
+    Frontend
+ReactJS
+Tailwind CSS & daisyUI
+React Router
+TanStack Query
+Axios
+Framer Motion
+React Icons
+React Slick
+React Toastify
+Firebase Hosting (for deployment)
+Backend
+Node.js
+Express.js
+MongoDB
+Firebase Auth
+Vercel (deployment)
+
+    "https://food-o-share.web.app/""https://github.com/garodiaa/foodOshare_client"
+}
+{   "Boardium"
+"src\assets\projects\boardium.png"
+A Class wise notice management WebApp
+    "https://github.com/garodiaa/Boardium"
+    "https://boardiumx.web.app/"
+    tech stack:[
+        "ReactJS",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "TanStack Query",
+        "Axios",
+        "Framer Motion",
+        "React Icons",
+        "React Slick",
+        "React Toastify",
+        "Firebase Hosting (for deployment)",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Auth",
+        "Vercel (deployment)"
+    ]
+}
+{
+    "src\assets\projects\booknookery.png"
+    Book Nookery is our flagship Java-based Book Store Management Software.
+    "https://sites.google.com/diu.edu.bd/devoverflow"
+    "java mysql"
+}
+{
+    "src\assets\projects\devboard.jpg"
+    DevBoard
+    "https://github.com/garodiaa/PH_A5"
+    "https://garodiaa.github.io/PH_A5/index.html"
+    tech stack:[
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Tailwind",
+    ]
+}
+{
+    "src\assets\projects\uniChronicle.png"
+    "https://github.com/garodiaa/Uni-Chronicle"
+    "Uni-Chronicle: An Automated Shell Solution for Academic File Management
+Uni-Chronicle is a shell-script-based automation tool designed to simplify and streamline file organization and backup management for university students. Built for Ubuntu, this project ensures that students can effortlessly organize their academic files for theory and lab courses, manage backups, and optimize their workflow throughout the semester."
+techstack:[
+        "Shell Scripting",
+        "Ubuntu",
+        "Bash",
+        "Cron Jobs"
+    ]
+}
+
